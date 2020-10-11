@@ -297,6 +297,14 @@
         margin-left: 140px;
     }
 }
+@media (max-width: 380px) {
+    .mostrar1 {
+        margin-left: 120px;
+    }
+    .mostrar2 {
+        margin-left: 120px;
+    }
+}
 @media (max-width: 1200px) {
     .blandas h3 {
         width: 100%;
@@ -341,3 +349,25 @@
 }
 
 /* SERVICIOS */
+@media (max-width: 1800px) {
+    .servicios {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 380px) {
+    .oculto4 {
+        display: none;
+    }
+}
+@media (max-width: 380px) {
+    .carousel {
+        margin-left: 50px;
+    }
+    .carousel__lista {
+        width: 235px;
+    }
+    .carousel__elemento {
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+}
