@@ -1036,6 +1036,8 @@ nav .icon-burger .line{
     background: white;
     margin-left: 20px;
     margin-right: 7px;
+    padding: 10px;
+    height: auto;
 }
 .carousel__indicadores .glider-dot{
     display: block;
@@ -1044,4 +1046,22 @@ nav .icon-burger .line{
     background: #2E58A6;
     opacity: 90%;
     border-radius: 0;
+}
+.carousel__elemento h2{
+    color: #2E58A6;
+    text-align: center;
+    font-weight: bold;
+}
+.carousel__elemento p {
+    font-size: 18px;
+}
+.carousel__elemento img {
+    width: 80px;
+    margin-left: 8px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.carousel__elemento img, h2 {
+    display: inline;
+    vertical-align: middle;
 }

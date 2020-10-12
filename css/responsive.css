@@ -352,6 +352,7 @@
 @media (max-width: 1800px) {
     .servicios {
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 @media (min-width: 380px) {
