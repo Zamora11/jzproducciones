@@ -1,0 +1,7 @@
+/* PRELOADER */
+@media (max-width: 380px) {
+          .loader {
+              top: calc(43vh - 57px);
+              left: calc(40vw - 55px);
+          }
+      }

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <script src="https://kit.fontawesome.com/8f4844f6fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <script src="../js/jquery-3.5.1.js"></script>
+    <title>Portafolio Personal | JZ Producciones</title>
+</head>
+<body>
+    <div class="loader-bg">
+        <div class="loader"></div>
+        </div>
+
+    <div class="menu">
+        <div class="fondo-volver">
+            <a href="../index.html#portafolio">
+                <i class="fas fa-angle-double-left"></i>
+                <h2>VOLVER</h2>
+            </a>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <span class="ir-arriba"><img src="img/arriba.png" alt="Fonts"></span>
+
+        <header>
+            <div class="logo">
+                <img src="img/logo1.png" alt="Logo">
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">TODO</a>
+                <a href="#">ILUSTRACIONES</a>
+                <a href="#">AUDIOVISUALES</a>
+                <a href="#">BRANDING</a>
+                <a href="#">FOTOGRAFÍAS</a>
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item"
+                 data-categoria="ilustraciones"
+                 data-etiquetas="ilustraciones peliculas joker"
+                 data-descripcion="1. Acá saldrá la descripción de la imagen"
+            >
+                <div class="item-contenido">
+                    <img src="img/ilustracion1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="fotografías"
+                 data-etiquetas="fotografias paisaje deporte fuentes"
+                 data-descripcion="2. Acá saldrá la descripción de la imagen"
+            >
+                <div class="item-contenido">
+                    <img src="img/fotografia1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="ilustraciones"
+                 data-etiquetas="ilustraciones aficionado dibujo gotico"
+                 data-descripcion="3. Acá saldrá la descripción de la imagen"
+            >
+                <div class="item-contenido">
+                    <img src="img/ilustracion2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="fotografías"
+                 data-etiquetas="fotografias caracterizacion freddie mercury queen iluminacion"
+                 data-descripcion="4. Acá saldrá la descripción de la imagen"
+            >
+                <div class="item-contenido">
+                    <img src="img/fotografia2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="audiovisuales"
+                 data-etiquetas="audiovisuales videos clown payaso terror suspenso filminuto"
+                 data-descripcion="5. Acá saldrá la descripción de la imagen"
+            >
+                <div class="item-contenido">
+                    <img src="img/audiovisuales1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="ilustraciones"
+                 data-etiquetas="ilustraciones peliculas hombre bicentenario"
+                 data-descripcion="6. Acá saldrá la descripción de la imagen"
+            >
+                <div class="item-contenido">
+                    <img src="img/ilustracion3.png" alt="">
+                </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="branding"
+                 data-etiquetas="branding jzproducciones logos productor"
+                 data-descripcion="7. Acá saldrá la descripción de la imagen"
+            >
+                <div class="item-contenido">
+                    <img src="img/branding1.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+
+        <footer class="contenedor">
+            <div class="redes-sociales">
+                <div class="contenedor-icono">
+                    <a href="https://www.instagram.com/Zamora11J" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.twitter.com/Zamora11J" target="_blank" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="contenedor-icono">
+                    <a href="https://www.facebook.com/Zamora11J" target="_blank" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p>© 2020 Juan Zamora PRODUCCIONES.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="js/main2.js"></script>
+</body>
+</html>

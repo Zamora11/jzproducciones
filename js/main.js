@@ -26,7 +26,7 @@ $(document).ready(function(){
 const typed = new Typed('.typed', {
     strings: [
         '<b>Juan Zamora</b>',
-        '<b>Editor de video</b>',
+        '<b>Editor de vídeo</b>',
         '<b>Fotógrafo</b>',
         '<b>Diseñador web</b>',
         '<b>Ilustrador</b>'

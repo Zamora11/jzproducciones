@@ -338,7 +338,7 @@
     }
 }
 @media (min-width: 484px) {
-    .tecnologo br {
+    .tecnologo12 {
         display: none;
     }
 }
@@ -361,6 +361,9 @@
     }
 }
 @media (max-width: 380px) {
+    .fondo-servicios {
+        height: 615px;
+    }
     .carousel {
         margin-left: 50px;
     }
@@ -372,3 +375,33 @@
         margin-right: 25px;
     }
 }
+@media (max-width: 530px) {
+    .fondo-servicios {
+        height: 585px;
+    }
+}
+@media (min-width: 841px) {
+    .carousel__elemento img, h2 {
+        display: inline;
+        vertical-align: middle;
+    }
+}
+@media (max-width: 841px) {
+    .carousel__elemento img {
+        display: block;
+        padding-bottom: 13px;
+        padding-top: 6px;
+        margin: auto;
+    }
+    .carousel__elemento h2 {
+        display: block;
+        margin: auto;
+    }
+}
+@media (max-width: 441px) {
+    .carousel__indicadores .glider-dot {
+        margin: 10px;
+    }
+}
+
+/* PORTAFOLIO */
