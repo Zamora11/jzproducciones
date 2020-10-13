@@ -1040,6 +1040,7 @@ nav .icon-burger .line{
     margin-right: 7px;
     padding: 10px;
     height: auto;
+    z-index: 10000;
 }
 .carousel__indicadores .glider-dot{
     display: block;
