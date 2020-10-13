@@ -413,6 +413,10 @@
         width: 100%;
     }
 }
-@media (max-width: 680px) {
-    
+
+/* CONTACTO */
+@media (max-width: 470px) {
+    .texto-contacto br {
+        display: none;
+    }
 }

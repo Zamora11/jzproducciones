@@ -408,7 +408,29 @@
         </div>
 
         <!-- CONTACTO -->
-        
+        <div class="fondo-contacto" id="contacto">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contacto"><h1>CONTACTO</h1></div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 texto-contacto">
+                    <p>¡Muchas gracias por ingresar a <b>Juan Zamora Producciones</b>!</p>
+                    <p>Para mí es un honor tenerte aquí y que observes mi trabajo. Si deseas<br>que te realice algún producto, ponte en contacto y estaré dispuesto a trabajar contigo.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+            </div>
+
+            <section class="container-fluid columnas">
+                <div class="formulario">
+                    <form action="enviar.php" method="post">
+                        <input type="text" name="nombre" placeholder="Nombre" class="caja1" required>
+                        <input type="email" name="email" placeholder="Correo electrónico" class="caja2" required>
+                        <input type="text" name="asunto" placeholder="Asunto" class="caja3" required>
+                        <textarea name="mensaje" class="caja4" placeholder="Mensaje" required></textarea>
+                        <button type="submit" class="boton-enviar">ENVIAR</button>
+                    </form>
+                </div>
+            </section>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
