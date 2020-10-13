@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb{
     bottom: 20px;
     right: 20px;
     border-radius: 20px;
-    z-index: 1000;
+    z-index: 1000000000;
 }
 
 
