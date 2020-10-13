@@ -65,6 +65,7 @@ body {
     bottom: 20px;
     right: 20px;
     border-radius: 20px;
+    z-index: 1000;
 }
 
 .fondo-volver {
@@ -78,7 +79,7 @@ body {
     height: 60px;
     color: white;
     padding-top: 11px;
-    margin-left: 60px;
+    margin-left: 20px;
     text-align: center;
 }
 .fondo-volver a i {
@@ -261,14 +262,4 @@ footer .creado-por {
     font-size: 20px;
     font-weight: bold;
     color: #2E58A6;
-}
-
-/* RESPONSIVE */
-@media screen and (max-width: 700px) {
-    .grid .item {
-        width: calc(50% - 20px);
-    }
-    header .barra-busqueda {
-        width: 100%;
-    }
 }

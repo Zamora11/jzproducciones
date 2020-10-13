@@ -5,3 +5,13 @@
               left: calc(40vw - 55px);
           }
       }
+
+/* PORTAFOLIO */
+@media screen and (max-width: 700px) {
+    .grid .item {
+        width: calc(50% - 20px);
+    }
+    header .barra-busqueda {
+        width: 100%;
+    }
+}
