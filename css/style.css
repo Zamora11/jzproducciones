@@ -1316,3 +1316,6 @@ a {
     outline: none;
     cursor: pointer;
 }
+.boton-enviar:hover {
+    background: #111e36;
+}

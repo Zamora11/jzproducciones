@@ -1,26 +1,21 @@
-<?php
-header("Content-type: text/html;charset=\"utf-8\"");
+<?php 
+
+// Llamando a los campos
 $nombre = $_POST['nombre'];
-$mail = $_POST['email'];
-$asunto = $_POST['asunto'];
+$email = $_POST['email'];
+$titulo = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
-$header = 'From: ' . $mail . " \r\n";
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .= "Mime-Version: 1.0 \r\n";
-$header .= "Content-Type: text/plain";
+// Datos para el correo
+$destinatario = "jzamora11p@gmail.com";
+$asunto = "Contacto JZ Producciones";
 
-$mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
-$mensaje .= "Su e-mail es: " . $mail . " \r\n";
-$mensaje .= "Asunto: " . $asunto . " \r\n";
-$mensaje .= "Mensaje: " . $mensaje . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());
+$carta = "De: $nombre \n";
+$carta .= "Correo electrónico: $email \n";
+$carta .= "Asunto: $asunto \n";
+$carta .= "Mensaje: $mensaje";
 
-$para = 'jzamora11p@gmail.com';
-$asunto = 'Mensaje de mi sitio web';
-
-if (mail($para, $asunto, utf8_decode($mensaje), $header))
-echo "<script type='text/javascript'>alert('Tu mensaje ha sido enviado exitosamente');</script>";
-echo "<script type='text/javascript'>window.location.href='https://zamora11.github.io/jzproducciones/';</script>";
+// Enviando mensaje
+mail($destinatario, $asunto, $carta);
 
 ?>
