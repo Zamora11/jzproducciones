@@ -205,6 +205,7 @@ nav .icon-burger .line{
     width: 18px;
 }
 .video1 a{
+    text-decoration: none;
     font-size: 19px;
     color: white;
     font-weight: bold;
