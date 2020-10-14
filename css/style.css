@@ -199,12 +199,12 @@ nav .icon-burger .line{
 }
 
 .video1{
-    margin-top: 46px;
+    margin-top: 52px;
 }
 .video1 img{
     width: 18px;
 }
-.video1 button{
+.video1 a{
     font-size: 19px;
     color: white;
     font-weight: bold;
@@ -215,6 +215,14 @@ nav .icon-burger .line{
     padding-bottom: 7px;
     padding-left: 14px;
     padding-right: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.video1 a:hover {
+    color: rgb(66, 66, 66);
+    font-weight: 800;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-stripes-light.png");
 }
 
 .separador2{

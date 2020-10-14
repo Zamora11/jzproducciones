@@ -1,0 +1,172 @@
+.loader-bg{
+    position: fixed;
+    z-index: 99999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: 1em solid #2E58A6;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e3e3e3;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    font-family: 'Lato', sans-serif;
+}
+body::-webkit-scrollbar{
+    width: 11px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
+    border-radius: 8px;
+}
+
+header {
+    background-color: #2e58a6;
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    color: #fff;
+    text-align: center;
+    height: 90px;
+    top: 0;
+    width: 100%;
+}
+header .titulo {
+    padding: 20px;
+	font-weight: 700;
+}
+main {
+	margin-top: 30px;
+}
+
+main .contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+main .contenedor article {
+    margin: 10px;
+}
+main .contenedor article p {
+    color: black;
+    font-size: 18px;
+}
+main .contenedor article span {
+    color: #2E58A6;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.jz-video {
+    width: 100%;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .5);
+
+}
+.jz-video .vjs-control-bar {
+    background: #2E58A6;
+    color: #f4f4f4;
+    font-size: 12px;
+}
+.jz-video .vjs-play-progress,
+.jz-video .vjs-volume-level {
+    background: #1d386b;
+}
+.jz-video .vjs-slider {
+    background: #a0a0a0;
+}
+.jz-video:hover .vjs-big-play-button {
+    background: #203d74;
+}
+.jz-video .vjs-big-play-button {
+    background: #203d74;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    border: none;
+}
+.jz-video .vjs-big-play-button:hover {
+    background: #2E58A6;
+}
+
+
+main .father {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+main .boton {
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    background: #2E58A6;
+    border-radius: 20px;
+}
+main .boton a {
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+main .boton:hover{
+    background-color: #2e58a6;
+    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		position: relative;
+		height: auto;
+	}
+
+	main {
+		margin-top: 20px;
+	}
+}

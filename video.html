@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/video-js.min.css">
+    <script src="js/video.min.js"></script>
+    <link rel="stylesheet" href="css/videojs.watermark.css">
+    <script src="js/videojs.watermark.js"></script>
+    <title>Video | JZ Producciones</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style3.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader-bg">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <h1 class="titulo">Video de presentación</h1>
+    </header>
+    <main>
+        <div class="contenedor">
+            <video class="jz-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="jz-video">
+                <source src="video/presentacion.mp4" type="video/mp4">
+            </video>
+            <article>
+                <p><span>Descripción:</span> Video en el cual presento y explico varios de mis trabajos realizados a lo largo de estos años.</p>
+            </article>
+        </div>
+
+        <div class="father">
+            <div class="boton"><a href="index.html">Volver a <span>JZProducciones</span></a></div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script>
+        var player = videojs('jz-video', {
+            fluid: true
+        });
+        var player = window.player = videojs('jz-video', {
+            html5: {
+            hls: {
+            overrideNative: true
+                },
+            nativeAudioTracks: false,
+            nativeVideoTracks: false
+                }
+        });
+        var my_video_id = videojs('jz-video');
+        my_video_id.watermark({
+            file: 'img/marcadeagua.png',
+            xpos: 50,
+            ypos: 50,
+            xrepeat: 0,
+            opacity: .9,
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
