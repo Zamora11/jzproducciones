@@ -37,7 +37,7 @@
                     <li><a datascroll href="#formacion">FORMACIÓN</a></li>
                     <li><a datascroll href="#servicios">SERVICIOS</a></li>
                     <li><a datascroll href="#portafolio">PORTAFOLIO</a></li>
-                    <li><a datascroll href="#contacto">CONTACTO</a></li>
+                    <li><button><a datascroll href="#contacto">CONTACTO</a></button></li>
                 </ul>
                 <label for="nav-toggle" class="icon-burger">
                     <div class="line"></div>
@@ -419,17 +419,53 @@
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
             </div>
 
-            <section class="container-fluid columnas">
-                <div class="formulario">
-                    <form action="enviar.php" method="post">
-                        <input type="text" name="nombre" placeholder="Nombre" class="caja1" required>
-                        <input type="email" name="email" placeholder="Correo electrónico" class="caja2" required>
-                        <input type="text" name="asunto" placeholder="Asunto" class="caja3" required>
-                        <textarea name="mensaje" class="caja4" placeholder="Mensaje" required></textarea>
-                        <input type="submit" value="ENVIAR" class="boton-enviar">
-                    </form>
+            <div class="container-fluid columnas">
+                <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                    <div class="col-lg-5 formulario">
+                        <form action="enviar.php" method="post">
+                            <input type="text" name="nombre" placeholder="Nombre" class="caja1" required>
+                            <input type="email" name="email" placeholder="Correo electrónico" class="caja2" required>
+                            <input type="text" name="asunto" placeholder="Asunto" class="caja3" required>
+                            <textarea name="mensaje" class="caja4" placeholder="Mensaje" required></textarea>
+                            <input type="submit" value="ENVIAR" class="boton-enviar">
+                        </form>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                    <div class="col-lg-1 informacion">
+                        <img src="img/whatsapp.png" alt="WhatsApp" class="info">
+                        <img src="img/correo.png" alt="Correo" class="info2">
+                    </div>
+                    <div class="col-lg-2 numeros">
+                        <p class="number">321 3169394<br>2875456</p>
+                        <p class="email1">jzamora11p@gmail.com</p>
+                    </div>
+                    <div class="col-lg-1 redes">
+                        <a href="https://www.instagram.com/Zamora11J/" target="_blank"><img src="img/instagram.png" alt="Instagram" class="social1"></a><br>
+                        <a href="https://www.twitter.com/Zamora11J/" target="_blank"><img src="img/twitter.png" alt="Twitter" class="social2"></a><br>
+                        <a href="" target="_blank"><img src="img/facebook.png" alt="Facebook" class="social3"></a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
                 </div>
-            </section>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="fondo-footer">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-1 creditos1">
+                    <p>© 2020</p>
+                </div>
+                <div class="col-lg-3 creditos2">
+                    <p>Juan Zamora PRODUCCIONES.</p>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-1 logo-final">
+                    <img src="img/logo-final.png" alt="LogoFooter">
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
         </div>
     </div>
 

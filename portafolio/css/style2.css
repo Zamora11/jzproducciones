@@ -54,6 +54,16 @@ body {
     background-color: #e3e3e3;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
+body::-webkit-scrollbar{
+    width: 11px;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #2e58a6;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-circles.png");
+    border-radius: 8px;
+}
 
 .ir-arriba{
     display: none;
