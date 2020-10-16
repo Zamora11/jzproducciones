@@ -168,4 +168,7 @@ const grid = new Muuri('.grid', {
 	overlay.addEventListener('click', (evento) => {
 	    evento.target.id === 'overlay' ? overlay.classList.remove('activo') : '';
 	});
-      });
+	  });
+	  
+/* WOW.js */
+new WOW().init();

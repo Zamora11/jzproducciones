@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
@@ -15,7 +16,7 @@
     <script src="js/smooth-scroll.min.js"></script>
     <title>Juan Zamora Producciones | PORTAFOLIO WEB</title>
 </head>
-<body>
+<body background="img/background1.jpg">
     <!-- PRELOADER -->
     <div class="loader-bg">
     <div class="loader"></div>
@@ -30,7 +31,7 @@
             <nav>
                 <input id="nav-toggle" type="checkbox">
                 <div class="logo"><img src="img/logo1.png" alt="Logo" style="width: 65px;"></div>
-                <ul class="links">
+                <ul class="wow links animate__animated animate__flipInX" data-wow-delay="2.5s">
                     <li><a datascroll href="#">INICIO</a></li>
                     <li><a datascroll href="#sobre-mi">SOBRE MÍ</a></li>
                     <li><a datascroll href="#habilidades">HABILIDADES</a></li>
@@ -54,15 +55,15 @@
             <!-- INICIO -->
             <div class="row">
                 <div class="col-lg-1 col-xs-1"></div>
-                <div class="col-lg-11 col-xs-11 bienvenida1"><p>¡Bienvenido!</p></div>
+                <div class="wow col-lg-11 col-xs-11 bienvenida1 animate__animated animate__fadeInLeft" data-wow-delay="2s"><p>¡Bienvenido!</p></div>
                 <div class="col-lg-1 col-xs-1"></div>
-                <div class="col-lg-11 col-xs-11 bienvenida2"><p>Soy <span class="typed"></span></p></div>
+                <div class="wow col-lg-11 col-xs-11 bienvenida2 animate__animated animate__fadeInLeft" data-wow-delay="2s"><p>Soy <span class="typed"></span></p></div>
             </div>
             <div class="row">
                 <div class="col-lg-1 col-xs-1"></div>
-                <div class="col-lg-2 col-xs-11 hojavida"><button onclick="location.href='https://drive.google.com/u/2/uc?id=1nfp7Mgpks9MzY-Ee2jYnJBHJmX_WLSXY&export=download'">DESCARGAR<br>Hoja de Vida</button></div>
+                <div class="wow col-lg-2 col-xs-11 hojavida animate__animated animate__swing" data-wow-delay="4s"><button onclick="location.href='https://drive.google.com/u/2/uc?id=1nfp7Mgpks9MzY-Ee2jYnJBHJmX_WLSXY&export=download'">DESCARGAR<br>Hoja de Vida</button></div>
                 <div class="col-lg-0 col-md-1 col-sm-1 col-xs-1 oculto5"></div>
-                <div class="col-lg-2 col-md-11 col-sm-11 col-xs-11 video1"><a href="video.html"><img src="img/play-video.png">VER VÍDEO</a></div>
+                <div class="wow col-lg-2 col-md-11 col-sm-11 col-xs-11 video1 animate__animated animate__swing" data-wow-delay="5s"><a href="video.html"><img src="img/play-video.png">VER VÍDEO</a></div>
                 <div class="col-lg-7"></div>
             </div>
             <div class="row">
@@ -74,46 +75,46 @@
         <div class="fondo-sobremi" id="sobre-mi">
             <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-2 col-xs-2"></div>
-                <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 fotografia2"><img src="img/fotografia2.jpg" alt="Fotografia2"></div>
+                <div class="wow col-lg-4 col-md-4 col-sm-8 col-xs-8 fotografia2 animate__animated animate__backInLeft"><img src="img/sobre-mi.png" alt="Fotografia2"></div>
                 <div class="col-lg-0 col-md-0 col-sm-2 col-xs-2 oculto0"></div>
                 <div class="col-lg-0 col-md-0 col-sm-1 col-xs-1 oculto1"></div>
-                <div class="col-lg-6 col-md-6 col-sm-10 col-xs-10 texto-sobremi"><h1>SOBRE MÍ</h1><p>Soy <b>Juan Zamora</b>. Nací al sur de Bogotá, Colombia. Me gusta el cine, la música y la edición de video. En mis tiempos libres leo sobre temas que me apasionan, como el montaje de un audiovisual, sobre código, terror o aventura.<br>En el mundo de la multimedia entré aproximadamente hace más de 10 años. Inicié con la edición de video, en la cual me desempeño muy bien; me gusta porque puedo transmitir todo lo que quiero de una manera más explícita y sencilla. A eso del 2012, comencé a utilizar el HTML para diseñar plantillas en Blogger. Hasta el día de hoy practico esas dos partes de la multimedia que tanto me gustan.<br>En cuanto al tema profesional, soy una persona responsable y amable, apasionado por la creatividad y el aprendizaje. Mis relaciones interpersonales son adecuadas y tengo muy buena disposición. Además, aprendo rápidamente.</p></div>
+                <div class="wow col-lg-6 col-md-6 col-sm-10 col-xs-10 texto-sobremi animate__animated animate__pulse" data-wow-delay="1.5s"><h1>SOBRE MÍ</h1><p>Soy <b>Juan Zamora</b>. Nací al sur de Bogotá, Colombia. Me gusta el <b>cine</b>, la música y la <b>edición de video</b>. En mis tiempos libres leo sobre temas que me apasionan, como el montaje de un audiovisual, sobre código, terror o aventura.<br>En el mundo de la <b>multimedia</b> entré aproximadamente hace más de 10 años. Inicié con la edición de video, en la cual me desempeño muy bien; me gusta porque puedo transmitir todo lo que quiero de una manera más explícita y sencilla. A eso del 2012, comencé a utilizar el <b>HTML</b> para diseñar plantillas en Blogger. Hasta el día de hoy practico esas dos partes de la multimedia que tanto me gustan.<br>En cuanto al <b>tema profesional</b>, soy una persona responsable y amable, apasionado por la <b>creatividad</b> y el aprendizaje. Mis relaciones interpersonales son adecuadas y tengo muy buena disposición. Además, <b>aprendo rápidamente</b>.</p></div>
                 <div class="col-lg-1 col-md-1"></div>
-                <div class="col-lg-12 col-xs-12 slogan">"Pensar en hacerlo realidad."</div>
+                <div class="wow col-lg-12 col-xs-12 slogan animate__animated animate__flash">"Pensar en hacerlo realidad."</div>
             </div>
         </div>
 
         <!-- HABILIDADES -->
         <div class="fondo-habilidades" id="habilidades">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 habilidades"><h1>HABILIDADES</h1></div>
+                <div class="wow col-lg-12 col-md-12 col-sm-12 col-xs-12 habilidades animate__animated animate__pulse"><h1>HABILIDADES</h1></div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
                 <div class="col-lg-5 col-md-10 col-sm-10 col-xs-10 blandas">
                     <h3>Habilidades blandas</h3>
                     <div class="creative"><img src="img/creative.png" alt="Creatividad"><h2>CREATIVIDAD</h2></div>
                     <div class="progress1">
-                        <div class="progress-done1" data-done="90">
+                        <div class="wow progress-done1 animate__animated animate__backInLeft" data-done="90">
                             90%
                         </div>
                     </div>
                     <br>
                     <div class="sociable"><img src="img/social.png" alt="Sociable"><h2>SOCIABLE</h2></div>
                     <div class="progress2">
-                        <div class="progress-done2" data-done="81">
+                        <div class="wow progress-done2 animate__animated animate__backInLeft" data-done="81">
                             81%
                         </div>
                     </div>
                     <br>
                     <div class="asertivo"><img src="img/assertive.png" alt="Asertivo"><h2>ASERTIVO</h2></div>
                     <div class="progress3">
-                        <div class="progress-done3" data-done="83">
+                        <div class="wow progress-done3 animate__animated animate__backInLeft" data-done="83">
                             83%
                         </div>
                     </div>
                     <br>
                     <div class="paciente"><img src="img/patient.png" alt="Paciente"><h2>PACIENTE O ADAPTABLE</h2></div>
                     <div class="progress4">
-                        <div class="progress-done4" data-done="68">
+                        <div class="wow progress-done4 animate__animated animate__backInLeft" data-done="68">
                             68%
                         </div>
                     </div>
@@ -121,34 +122,34 @@
                     <div class="mostrarOcultar1" id="blandasshow">
                         <div class="comunicacion"><img src="img/comunication.png" alt="Comunicación"><h2>COMUNICACIÓN</h2></div>
                         <div class="progress5">
-                            <div class="progress-done5" data-done="81">
+                            <div class="wow progress-done5 animate__animated animate__backInLeft" data-done="81">
                                 81%
                             </div>
                         </div>
                         <br>
                         <div class="productividad"><img src="img/productivity.png" alt="Productividad"><h2>PRODUCTIVIDAD</h2></div>
                         <div class="progress6">
-                            <div class="progress-done6" data-done="92">
+                            <div class="wow progress-done6 animate__animated animate__backInLeft" data-done="92">
                                 92%
                             </div>
                         </div>
                         <br>
                         <div class="fluidez"><img src="img/fluidez.png" alt="Fluidez"><h2>FLUIDEZ VERBAL</h2></div>
                         <div class="progress7">
-                            <div class="progress-done7" data-done="76">
+                            <div class="wow progress-done7 animate__animated animate__backInLeft" data-done="76">
                                 76%
                             </div>
                         </div>
                         <br>
                         <div class="inteligencia"><img src="img/intelligence.png" alt="Inteligencia"><h2>INTELIGENCIA EMOCIONAL</h2></div>
                         <div class="progress8">
-                            <div class="progress-done8" data-done="86">
+                            <div class="wow progress-done8 animate__animated animate__backInLeft" data-done="86">
                                 86%
                             </div>
                         </div>
                     </div>
                     <br><br>
-                    <button class="mostrar1" id="vermas1" onclick="MostrarBlandas()">+</button>
+                    <button class="wow mostrar1 animate__animated animate__pulse" id="vermas1" onclick="MostrarBlandas()">+</button>
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 oculto2"></div>
                 <div class="col-lg-0 col-md-1 col-sm-1 col-xs-1 oculto2"></div>
@@ -156,28 +157,28 @@
                     <h3>Habilidades técnicas</h3>
                     <div class="illustrator"><img src="img/illustrator.png" alt="Illustrator"><h2>ILLUSTRATOR</h2></div>
                     <div class="progress9">
-                        <div class="progress-done9" data-done="82">
+                        <div class="wow progress-done9 animate__animated animate__backInLeft" data-done="82">
                             82%
                         </div>
                     </div>
                     <br>
                     <div class="sonyvegas"><img src="img/sonyvegas.png" alt="SonyVegas"><img src="img/premiere.png" alt="Premiere"><h2>SONY VEGAS / PREMIERE</h2></div>
                     <div class="progress10">
-                        <div class="progress-done10" data-done="87">
+                        <div class="wow progress-done10 animate__animated animate__backInLeft" data-done="87">
                             87%
                         </div>
                     </div>
                     <br>
                     <div class="html5"><img src="img/html.png" alt="HTML"><h2>HTML</h2></div>
                     <div class="progress11">
-                        <div class="progress-done11" data-done="90">
+                        <div class="wow progress-done11 animate__animated animate__backInLeft" data-done="90">
                             90%
                         </div>
                     </div>
                     <br>
                     <div class="css3"><img src="img/css.png" alt="CSS"><h2>CSS</h2></div>
                     <div class="progress12">
-                        <div class="progress-done12" data-done="86">
+                        <div class="wow progress-done12 animate__animated animate__backInLeft" data-done="86">
                         86%
                         </div>
                     </div>
@@ -185,34 +186,34 @@
                     <div class="mostrarOcultar2" id="tecnicasshow">
                         <div class="javascript1"><img src="img/javascript.png" alt="Javascript"><h2>JAVASCRIPT</h2></div>
                         <div class="progress13">
-                            <div class="progress-done13" data-done="73">
+                            <div class="wow progress-done13 animate__animated animate__backInLeft" data-done="73">
                                 73%
                             </div>
                         </div>
                         <br>
                         <div class="photoshop"><img src="img/photoshop.png" alt="Photoshop"><h2>PHOTOSHOP</h2></div>
                         <div class="progress14">
-                            <div class="progress-done14" data-done="79">
+                            <div class="wow progress-done14 animate__animated animate__backInLeft" data-done="79">
                                 79%
                             </div>
                         </div>
                         <br>
                         <div class="aftereffects"><img src="img/after.png" alt="After"><h2>AFTER EFFECTS</h2></div>
                         <div class="progress15">
-                            <div class="progress-done15" data-done="61">
+                            <div class="wow progress-done15 animate__animated animate__backInLeft" data-done="61">
                                 61%
                             </div>
                         </div>
                         <br>
                         <div class="visual"><img src="img/visualstudio.png" alt="Visual"><h2>VISUAL STUDIO CODE</h2></div>
                         <div class="progress16">
-                            <div class="progress-done16" data-done="84">
+                            <div class="wow progress-done16 animate__animated animate__backInLeft" data-done="84">
                                 84%
                             </div>
                         </div>
                     </div>
                     <br><br>
-                    <button class="mostrar2" id="vermas2" onclick="MostrarTecnicas()">+</button>
+                    <button class="wow mostrar2 animate__animated animate__pulse" id="vermas2" onclick="MostrarTecnicas()">+</button>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
@@ -221,12 +222,12 @@
         <!-- FORMACIÓN -->
         <div class="fondo-formacion" id="formacion">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 formacion"><h1>FORMACIÓN</h1></div>
+                <div class="wow col-lg-12 col-md-12 col-sm-12 col-xs-12 formacion animate__animated animate__pulse"><h1>FORMACIÓN</h1></div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 academica"><img src="img/trophy.png" alt="Trofeo" class="shadowfilter"><h2>ACADÉMICA</h2></div>
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 academica"><img src="img/trophy.png" alt="Trofeo" class="wow shadowfilter animate__animated animate__heartBeat"><h2>ACADÉMICA</h2></div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div><br>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-                <div class="col-lg-5 col-md-10 col-sm-10 col-xs-10">
+                <div class="wow col-lg-5 col-md-10 col-sm-10 col-xs-10 animate__animated animate__fadeInLeftBig">
                     <div class="primaria">
                         <h4>2007 - 2012</h4>
                         <h3>PRIMARIA</h3>
@@ -235,7 +236,7 @@
                 </div>
                 <div class="col-lg-0 col-md-1 col-sm-1 col-xs-1 oculto3"></div><br>
                 <div class="col-lg-0 col-md-1 col-sm-1 col-xs-1 oculto3"></div>
-                <div class="col-lg-5 col-md-10 col-sm-10 col-xs-10">
+                <div class="wow col-lg-5 col-md-10 col-sm-10 col-xs-10 animate__animated animate__fadeInRightBig">
                     <div class="bachillerato">
                         <h4>2013 - 2018</h4>
                         <h3>BACHILLERATO</h3>
@@ -244,7 +245,7 @@
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-                <div class="col-lg-5 col-md-10 col-sm-10 col-xs-10">
+                <div class="wow col-lg-5 col-md-10 col-sm-10 col-xs-10 animate__animated animate__fadeInLeftBig">
                     <div class="estucine">
                         <h4>2019</h4>
                         <h3>ESTUCINE Y BOGOSHORTS</h3><br>
@@ -253,7 +254,7 @@
                 </div>
                 <div class="col-lg-0 col-md-1 col-sm-1 col-xs-1 oculto3"></div><br>
                 <div class="col-lg-0 col-md-1 col-sm-1 col-xs-1 oculto3"></div>
-                <div class="col-lg-5 col-md-10 col-sm-10 col-xs-10">
+                <div class="wow col-lg-5 col-md-10 col-sm-10 col-xs-10 animate__animated animate__fadeInRightBig">
                     <div class="tecnologo">
                         <h4>2019 - 2020</h4>
                         <h3>TECNÓLOGO P. MULTIMEDIA</h3><br class="tecnologo12">
@@ -267,7 +268,7 @@
         <!-- SERVICIOS -->
         <div class="fondo-servicios" id="servicios">
             <div class="row">
-                <div class="col-lg 12 col-md-12 col-sm-12 col-xs-12 servicios"><h1>SERVICIOS</h1></div>
+                <div class="wow col-lg 12 col-md-12 col-sm-12 col-xs-12 servicios animate__animated animate__pulse"><h1>SERVICIOS</h1></div>
             </div>
             <div class="col-lg-1 col-md-1 col-sm-0 col-xs-0 oculto4"></div>
             <div class="col-lg-10 col-md-10 col-sm-9 col-xs-8 carousel">
@@ -278,28 +279,28 @@
 
                     <div class="carousel__lista">
                         <div class="carousel__elemento">
-                            <img src="img/1-ilustracion.png" alt="Ilustración"><h2>Ilustraciones</h2>
+                            <img src="img/1-ilustracion.png" alt="Ilustración" class="wow animate__animated animate__fadeInDown"><h2>Ilustraciones</h2>
                             <p>Ilustraciones de todo tipo. Dibujos aficionados, íconos, logos, etc. Si tienes algún dibujo o idea plasmada en tu mente o en lápiz, ¡Ilústralo!</p>
                         </div>
                         <div class="carousel__elemento">
-                            <img src="img/2-audiovisuales.png" alt="Audiovisuales"><h2>Audiovisuales</h2>
+                            <img src="img/2-audiovisuales.png" alt="Audiovisuales" class="wow animate__animated animate__fadeInDown"><h2>Audiovisuales</h2>
                             <p>¿Tienes pensado hacer un cortometraje, un documental o un filminuto? Aquí tienes todas las posibilidades para realizarlo como tú quieras.</p>
                         </div>
                         <div class="carousel__elemento">
-                            <img src="img/3-disenoweb.png" alt="DiseñoWeb"><h2>Diseño web</h2>
-                            <p>¿Tienes pensado hacer un cortometraje, un documental o un filminuto? Aquí tienes todas las posibilidades para realizarlo como tú quieras.</p>
+                            <img src="img/3-disenoweb.png" alt="DiseñoWeb" class="wow animate__animated animate__fadeInDown"><h2>Diseño web</h2>
+                            <p>Haz tu propia página web (para ti o tu empresa). Desde una landing page, portafolios personales, blogs, corporativos, entre otros.</p>
                         </div>
                         <div class="carousel__elemento">
-                            <img src="img/4-fotografia.png" alt="Fotografías"><h2>Fotografías</h2>
+                            <img src="img/4-fotografia.png" alt="Fotografías" class="wow animate__animated animate__fadeInDown"><h2>Fotografías</h2>
                             <p>De paisaje, de retrato, de deporte; trabajo con todos los tipos de fotografías. Elaboradas con las reglas de composición e iluminación adecuadas.</p>
                         </div>
                         <div class="carousel__elemento">
-                            <img src="img/5-revelado.png" alt="ReveladoDigital"><h2>Revelado digital</h2>
-                            <p>¿Tienes pensado hacer un cortometraje, un documental o un filminuto? Aquí tienes todas las posibilidades para realizarlo como tú quieras.</p>
+                            <img src="img/5-revelado.png" alt="ReveladoDigital" class="wow animate__animated animate__fadeInDown"><h2>Revelado digital</h2>
+                            <p>¿Haz tomado una fotografía muy buena, pero sientes que le falta algo? Claro, hay reverlarla. Puedo mejorar tus imágenes para que se vean mucho mejor.</p>
                         </div>
                         <div class="carousel__elemento">
-                            <img src="img/6-disenografico.png" alt="DiseñoGráfico"><h2>Diseño gráfico</h2>
-                            <p>¿Tienes pensado hacer un cortometraje, un documental o un filminuto? Aquí tienes todas las posibilidades para realizarlo como tú quieras.</p>
+                            <img src="img/6-disenografico.png" alt="DiseñoGráfico" class="wow animate__animated animate__fadeInDown"><h2>Diseño gráfico</h2>
+                            <p>Flyers, edición de imagen, colorización, etc. Crea cualquier diseño que tenga pensado.</p>
                         </div>
                     </div>
 
@@ -315,7 +316,7 @@
         <!-- PORTAFOLIO -->
         <div class="fondo-portafolio" id="portafolio">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 portafolio"><h1>PORTAFOLIO</h1></div>
+                <div class="wow col-lg-12 col-md-12 col-sm-12 col-xs-12 portafolio animate__animated animate__pulse"><h1>PORTAFOLIO</h1></div>
             </div>
 
             <div class="contenedor1">
@@ -336,7 +337,7 @@
                          data-descripcion="1. Acá saldrá la descripción de la imagen"
                     >
                         <div class="item-contenido">
-                            <img src="img/ilustracion1.png" alt="">
+                            <img src="img/ilustracion1.png" alt="" class="wow animate__animated animate__fadeIn">
                         </div>
                     </div>
         
@@ -346,7 +347,7 @@
                          data-descripcion="2. Acá saldrá la descripción de la imagen"
                     >
                         <div class="item-contenido">
-                            <img src="img/fotografia1.png" alt="">
+                            <img src="img/fotografia1.png" alt="" class="wow animate__animated animate__fadeIn">
                         </div>
                     </div>
         
@@ -356,7 +357,7 @@
                          data-descripcion="3. Acá saldrá la descripción de la imagen"
                     >
                         <div class="item-contenido">
-                            <img src="img/ilustracion2.png" alt="">
+                            <img src="img/ilustracion2.png" alt="" class="wow animate__animated animate__fadeIn">
                         </div>
                     </div>
         
@@ -366,7 +367,7 @@
                          data-descripcion="4. Acá saldrá la descripción de la imagen"
                     >
                         <div class="item-contenido">
-                            <img src="img/fotografia2.png" alt="">
+                            <img src="img/fotografia2.png" alt="" class="wow animate__animated animate__fadeIn">
                         </div>
                     </div>
         
@@ -376,7 +377,7 @@
                          data-descripcion="5. Acá saldrá la descripción de la imagen"
                     >
                         <div class="item-contenido">
-                            <img src="img/audiovisuales1.png" alt="">
+                            <img src="img/audiovisuales1.png" alt="" class="wow animate__animated animate__fadeIn">
                         </div>
                     </div>
         
@@ -386,7 +387,7 @@
                          data-descripcion="6. Acá saldrá la descripción de la imagen"
                     >
                         <div class="item-contenido">
-                            <img src="img/ilustracion3.png" alt="">
+                            <img src="img/ilustracion3.png" alt="" class="wow animate__animated animate__fadeIn">
                         </div>
                     </div>
                 </section>
@@ -402,7 +403,7 @@
 
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-sm-3 col-xs-4"></div>
-                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 vermas3"><a href="portafolio/portafolio-personal.html">VER MÁS</a></div>
+                <div class="wow col-lg-2 col-md-2 col-sm-3 col-xs-4 vermas3 animate__animated animate__jello"><a href="portafolio/portafolio-personal.html">VER MÁS</a></div>
                 <div class="col-lg-5 col-md-5 col-sm-3 col-xs-4"></div>
             </div>
         </div>
@@ -410,9 +411,9 @@
         <!-- CONTACTO -->
         <div class="fondo-contacto" id="contacto">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contacto"><h1>CONTACTO</h1></div>
+                <div class="wow col-lg-12 col-md-12 col-sm-12 col-xs-12 contacto animate__animated animate__pulse"><h1>CONTACTO</h1></div>
                 <div class="col-lg-2 col-md-2 col-sm-1 col-xs-1"></div>
-                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 texto-contacto">
+                <div class="wow col-lg-8 col-md-8 col-sm-10 col-xs-10 texto-contacto animate__animated animate__fadeInUp">
                     <p>¡Muchas gracias por ingresar a <b>Juan Zamora Producciones</b>!</p>
                     <p>Para mí es un honor tenerte aquí y que observes mi trabajo. Si deseas <br>que te realice algún producto, ponte en contacto y estaré dispuesto a trabajar contigo.</p>
                 </div>
@@ -443,9 +444,9 @@
                     </div>
                     <div class="col-lg-0 col-md-0 col-sm-2 col-xs-2 oculto6"></div>
                     <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 redes">
-                        <a href="https://www.instagram.com/Zamora11J/" target="_blank"><img src="img/instagram.png" alt="Instagram" class="social1"></a><br>
-                        <a href="https://www.twitter.com/Zamora11J/" target="_blank"><img src="img/twitter.png" alt="Twitter" class="social2"></a><br>
-                        <a href="" target="_blank"><img src="img/facebook.png" alt="Facebook" class="social3"></a>
+                        <a href="https://www.instagram.com/Zamora11J/" target="_blank"><img src="img/instagram.png" alt="Instagram" class="wow social1 animate__animated animate__lightSpeedInRight"></a><br>
+                        <a href="https://www.twitter.com/Zamora11J/" target="_blank"><img src="img/twitter.png" alt="Twitter" class="wow social2 animate__animated animate__lightSpeedInRight"></a><br>
+                        <a href="" target="_blank"><img src="img/facebook.png" alt="Facebook" class="wow social3 animate__animated animate__lightSpeedInRight"></a>
                     </div>
                     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
                 </div>
@@ -456,10 +457,10 @@
         <div class="fondo-footer">
             <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-                <div class="col-lg-1 col-md-2 col-sm-3 col-xs-3 creditos1">
+                <div class="wow col-lg-1 col-md-2 col-sm-3 col-xs-3 creditos1 animate__animated animate__fadeInLeft">
                     <p>© 2020</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-7 col-xs-7 creditos2">
+                <div class="wow col-lg-3 col-md-6 col-sm-7 col-xs-7 creditos2 animate__animated animate__fadeInLeft">
                     <p>Juan Zamora PRODUCCIONES.</p>
                 </div>
                 <div class="col-lg-4 col-md-2"></div>
@@ -471,6 +472,7 @@
         </div>
     </div>
 
+    <script src="js/wow.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
