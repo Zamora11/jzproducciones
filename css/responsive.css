@@ -584,4 +584,41 @@
     }
 }
 
+@media (max-width: 407px) {
+    .caja1 {
+        width: 46.5%;
+        font-size: 15px;
+    }
+    .caja2 {
+        font-size: 15px;
+    }
+    .caja3 {
+        font-size: 15px;
+    }
+    .caja4 {
+        font-size: 15px;
+    }
+}
+
 /* FOOTER */
+@media (max-width: 487px) {
+    .creditos1 {
+        margin-left: -10px;
+    }
+    .creditos1 p {
+        font-size: 18px;
+    }
+    .creditos2 p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 994px) {
+    .fondo-footer {
+        height: auto;
+    }
+    .logo-final img {
+        display: block;
+        margin: auto;
+        padding-top: 12px;
+    }
+}
